@@ -1,0 +1,564 @@
+{
+    "events": [
+        {
+            "name": "Introduction"
+        },
+        {
+            "name": "Death"
+        },
+        {
+            "name": "Log"
+        },
+        {
+            "name": "Fight"
+        },
+        {
+            "name": "Victory"
+        },
+        {
+            "name": "Inventory"
+        },
+        {
+            "name": "Devil Room"
+        },
+        {
+            "name": "Angel Room"
+        },
+        {
+            "name": "Starvation"
+        },
+        {
+            "name": "Bad Choice"
+        },
+        {
+            "name": "Village Entrance"
+        },
+        {
+            "name": "Village Exit"
+        },
+        {
+            "name": "Villager"
+        },
+        {
+            "name": "Grassfields"
+        },
+        {
+            "name": "Desert"
+        },
+        {
+            "name": "Bandits",
+            "reputation": 10
+        },
+        {
+            "name": "Bandit",
+            "reputation": 4
+        },
+        {
+            "name": "It Summon",
+            "walked_past_times": 0
+        },
+        {
+            "name": "Doom"
+        },
+        {
+            "name": "Keykeeper Room"
+        },
+        {
+            "name": "Buyer Room"
+        },
+        {
+            "name": "Treasury Vendor Room"
+        },
+        {
+            "name": "Locked Chest"
+        },
+        {
+            "name": "Dungeon Entrance"
+        },
+        {
+            "name": "Dungeon Empty Room"
+        },
+        {
+            "name": "Dungeon Exit"
+        }
+    ],
+    "items": [
+        {
+            "name": "Jar of Blood",
+            "stored_blood": 0
+        },
+        {
+            "name": "Red Sleeping Roll"
+        },
+        {
+            "name": "Sacrificial Dagger",
+            "strength": 0
+        },
+        {
+            "name": "Black Salt"
+        },
+        {
+            "name": "Goat Head"
+        },
+        {
+            "name": "Master Key"
+        },
+        {
+            "name": "Little Locked Chest"
+        },
+        {
+            "name": "Little Opened Chest"
+        },
+        {
+            "name": "Blessed Sandals"
+        },
+        {
+            "name": "Holy Cross"
+        },
+        {
+            "name": "Rusty Knife"
+        },
+        {
+            "max_amount": 0,
+            "name": "Liquid Container",
+            "reagents": {
+                "max_amount": 0,
+                "reagents": [],
+                "type": "container"
+            }
+        },
+        {
+            "max_amount": 4,
+            "name": "Bottle",
+            "reagents": {
+                "max_amount": 4,
+                "reagents": [
+                    {
+                        "amount": 4,
+                        "bitterness": 25,
+                        "blue": 10,
+                        "cost": 2,
+                        "formula": "",
+                        "green": 10,
+                        "name": "Bleeding Potion",
+                        "red": 50,
+                        "smell_potency": 1,
+                        "smellyness": 75,
+                        "sweetness": 0,
+                        "thickness": 1
+                    }
+                ],
+                "type": "container"
+            }
+        },
+        {
+            "name": "Bottle of Potion of Health"
+        },
+        {
+            "name": "Bottle of Potion of Regeneration"
+        },
+        {
+            "name": "Bottle of Potion of Harm"
+        },
+        {
+            "name": "Bottle of Potion of Bleeding"
+        },
+        {
+            "name": "Bottle of Potion of Immortality"
+        },
+        {
+            "name": "Bottle of Potion of Incurability"
+        },
+        {
+            "name": "Bottle of Wine"
+        },
+        {
+            "name": "Broken Bottle"
+        },
+        {
+            "name": "Cloak"
+        },
+        {
+            "name": "Deck of Fateful Cards"
+        },
+        {
+            "name": "D4"
+        },
+        {
+            "name": "D6"
+        },
+        {
+            "name": "D12"
+        },
+        {
+            "name": "D20"
+        },
+        {
+            "name": "D100"
+        }
+    ],
+    "npcs": [
+        {
+            "amount": 7,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 2,
+            "dodge_chance": 10,
+            "effects": [],
+            "food": 0,
+            "health": 6,
+            "hit_chance": 100,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 0,
+            "max_health": 6,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 666,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "souls": 8,
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Devil"
+        },
+        {
+            "amount": 12,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 10,
+            "effects": [],
+            "food": 0,
+            "health": 6,
+            "hit_chance": 100,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 0,
+            "max_health": 12,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": -333,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Angel"
+        },
+        {
+            "amount": 1,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "cheated": 0,
+            "damage": 1,
+            "dodge_chance": 100,
+            "effects": [],
+            "food": 0,
+            "health": 1,
+            "hit_chance": 100,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 0,
+            "max_health": 1,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 1,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Death"
+        },
+        {
+            "amount": 1,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 10,
+            "dodge_chance": 0,
+            "effects": [],
+            "food": 666,
+            "health": 666,
+            "hit_chance": 100,
+            "inventory": [],
+            "is_summoned": false,
+            "keys": 0,
+            "max_food": 666,
+            "max_health": 666,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "It"
+        },
+        {
+            "amount": 6,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 0,
+            "effects": [],
+            "food": 0,
+            "health": 3,
+            "hit_chance": 30,
+            "inventory": [],
+            "keys": 1,
+            "max_food": 10,
+            "max_health": 5,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Keykeeper"
+        },
+        {
+            "amount": 7,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 0,
+            "effects": [],
+            "food": 0,
+            "health": 3,
+            "hit_chance": 30,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 10,
+            "max_health": 3,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Buyer"
+        },
+        {
+            "amount": 7,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 0,
+            "effects": [],
+            "food": 0,
+            "health": 3,
+            "hit_chance": 30,
+            "inventory": [
+                {
+                    "name": "D20"
+                }
+            ],
+            "keys": 0,
+            "max_food": 10,
+            "max_health": 3,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Treasury Vendor"
+        },
+        {
+            "amount": 29,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 0,
+            "effects": [],
+            "food": 0,
+            "health": 1,
+            "hit_chance": 30,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 10,
+            "max_health": 3,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 0,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Villager"
+        },
+        {
+            "amount": 12,
+            "blood_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "blood"
+            },
+            "damage": 1,
+            "dodge_chance": 10,
+            "effects": [],
+            "food": 7,
+            "health": 1,
+            "hit_chance": 90,
+            "inventory": [],
+            "keys": 0,
+            "max_food": 10,
+            "max_health": 5,
+            "max_keys": 99,
+            "max_money": 99,
+            "max_sin": 666,
+            "min_food": 0,
+            "min_health": 0,
+            "min_keys": 0,
+            "min_money": 0,
+            "min_sin": -333,
+            "money": 3,
+            "sin": 0,
+            "skin_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "skin"
+            },
+            "stomach_vessel": {
+                "max_amount": 1000,
+                "reagents": [],
+                "type": "stomach"
+            },
+            "type": "Bandit"
+        }
+    ],
+    "player_deaths": 7,
+    "player_name": "Example",
+    "player_title": " the Starved",
+    "version": 1
+}
